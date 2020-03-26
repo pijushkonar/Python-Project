@@ -18,6 +18,7 @@ parent_folder={
 # My Demo Path = C:\Users\pijus\Desktop\DemoDesktop
 
 folderpath = input('Enter Your Folder Path To Sort The Files: ')
+# typeofsort = input("Enter Your Sorting Method In Ext, Date & Size: ") - More Feature To Be Added
 
 def file_finder(folderpath,file_extensions):
     files=[]
