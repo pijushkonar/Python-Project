@@ -18,6 +18,7 @@ parent_folder={
 # My Demo Path = C:\Users\pijus\Desktop\DemoDesktop
 
 folderpath = input('Enter Your Folder Path To Sort The Files: ')
+# typeofsort = input("Enter Your Sorting Method In Ext, Date & Size: ") - Option To User For Sorting Method (Feature To Be Added)
 
 def file_finder(folderpath,file_extensions):
     files=[]
@@ -25,14 +26,18 @@ def file_finder(folderpath,file_extensions):
         for extension in file_extensions:
             if file.endswith(extension):
                 files.append(file)
-    # files=os.listdir(os.getcwd())
-    # files.sort(os.stat(file).st_size,reverse=True)
     return files 
 
-# print(file_finder(folderpath,audio_extensions))
+# To Add Size Feature
+
+# def sizecheck(folderpath):
+#     list_dir=os.listdir(folderpath)
+#     for file in list_dir:
+#         if typeofsort== 'size':
+#             if os.path.isfile(folderpath+"/"+file):
+#                 sizeoffile=os.stat(folderpath+"/"+file).st_size
+
 for extensions_type,extension_tuple in file_extensions.items():
-    # print('calling file finder')
-    # print(file_finder(folderpath,extension_tuple))
     folder_name=extensions_type.split('_')[0]
     folder_path=os.path.join(folderpath,folder_name)
     os.mkdir(folder_path)
@@ -42,8 +47,6 @@ for extensions_type,extension_tuple in file_extensions.items():
         shutil.move(item_path,item_new_path)
 
 for extensions_type,extension_tuple in parent_folder.items():
-    # print('calling file finder')
-    # print(file_finder(folderpath,extension_tuple))
     folder_name=extensions_type.split('_')[0]
     folder_path=os.path.join(folderpath,folder_name)
     os.mkdir(folder_path)
