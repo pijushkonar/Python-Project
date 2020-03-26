@@ -11,7 +11,8 @@ By using the os module of python to recursively list out all the files that are 
 
 ### **Steps**
 
-We import os and shutil at first
+We import os and shutil at first.
+
      The OS module in python provides functions for interacting with the operating system. OS, comes under Python’s standard utility modules. This module provides a portable way of using operating system dependent functionality. The *os* and *os.path* modules include many functions to interact with the file system.
 
      Shutil module in Python provides many functions of high-level operations on files and collections of files. It comes under Python’s standard utility modules. This module helps in automating the process of copying and removal of files and directories. (Ex - shutil.move() method Recursively moves a file or directory (source) to another location (destination) and returns the destination.)
