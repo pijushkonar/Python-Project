@@ -18,7 +18,8 @@ We import os and shutil at first.
      Shutil module in Python provides many functions of high-level operations on files and collections of files. It comes under Python’s standard utility modules. This module helps in automating the process of copying and removal of files and directories. (Ex - shutil.move() method Recursively moves a file or directory (source) to another location (destination) and returns the destination.)
 
 Then we create the dictionaries for the folders. And the code will have the defined directories for each type of extentions 
-(Example - 'Audio':('.mp3','.wav','.flac', '.m4a', '.aac') Here we define the type of extentions of files for the sub-folder Audio)
+     
+     (Example - 'Audio':('.mp3','.wav','.flac', '.m4a', '.aac') Here we define the type of extentions of files for the sub-folder Audio)
 
 Then we start mapping the file formats with directory.
 
