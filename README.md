@@ -37,7 +37,7 @@ Here we create a function to get the file size and sorting the files according t
 
 
 
-### **How This Program Runs**
+## **How This Program Runs**
 
 So this code basically runs as any normal python .py code.
 It asks for user input for the path of the folder where the sorting is to be done.
@@ -46,6 +46,6 @@ For File Type Sorting We Use - 'ext'
 And For File Size Sorting We Use - 'size' 
 
 
-# `More Features That Are To Be Added`
+#### `More Features That Are To Be Added`
 
 Sorting Accoding To File Usage, Creation Date/Time.
