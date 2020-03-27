@@ -46,5 +46,6 @@ For File Type Sorting We Use - 'ext'
 And For File Size Sorting We Use - 'size' 
 
 
-`More Features That Are To Be Added`
+# `More Features That Are To Be Added`
+
 Sorting Accoding To File Usage, Creation Date/Time.
