@@ -32,11 +32,13 @@ Then we start mapping the file formats with directory. By creating a function an
 For size we use the os module of python and os.stat() method to retrive and read the size using "st_size" then using the if else statement inside a try expect and a for loop. Then sorting the files asccording to the size and putting them to their respective Folders according to the size of file.
 
 Here we create a function to get the file size and sorting the files according to their respective file sizes.
+  
      Here we are sorting the files into 4 Differnt Folders According To Size that are - "Byte_Files" for files under 1024 Bytes, "KiloByte_Files", "MegaByte_Files" and "GigaByte_Files".
 
 
 
 ### **How This Program Runs**
+
 So this code basically runs as any normal python .py code.
 It asks for user input for the path of the folder where the sorting is to be done.
 Then it asks for the method i.e 
