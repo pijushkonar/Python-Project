@@ -7,7 +7,9 @@ The aim of this project is to build a python program that runs as a command-line
 
 ### **Approach**
 
-By using the os module of python to recursively list out all the files that are present in the folders with their relative and absolute path then create a new folder with the parent called organized which will contain all the files in organized sub-folders
+By using the os module of python to recursively list out all the files that are present in the folders with their relative and absolute path then create a new folder with the parent called organized which will contain all the files in organized sub-folders.
+
+And for size we use the os module of python and os.stat() method to retrive and read the size using "st_size" then using the if else statement inside a try expect and a for loop. Then sorting the files asccording to the size and putting them to their respective Folders according to the size of file.
 
 ### **Steps**
 
@@ -16,6 +18,8 @@ We import os and shutil at first.
      The OS module in python provides functions for interacting with the operating system. OS, comes under Python’s standard utility modules. This module provides a portable way of using operating system dependent functionality. The *os* and *os.path* modules include many functions to interact with the file system.
 
      Shutil module in Python provides many functions of high-level operations on files and collections of files. It comes under Python’s standard utility modules. This module helps in automating the process of copying and removal of files and directories. (Ex - shutil.move() method Recursively moves a file or directory (source) to another location (destination) and returns the destination.)
+
+`For the File Type Sort`
 
 Then we create the dictionaries for the folders. And the code will have the defined directories for each type of extentions 
      
