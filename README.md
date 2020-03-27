@@ -21,11 +21,11 @@ We import os and shutil at first.
 
 `For the File Type Sort`
 
-Then we create the dictionaries for the folders. And the code will have the defined directories for each type of extentions 
+We create the dictionaries for the folders. And the code will have the defined directories for each type of extentions 
      
      (Example - 'Audio':('.mp3','.wav','.flac', '.m4a', '.aac') Here we define the type of extentions of files for the sub-folder Audio)
 
-Then we start mapping the file formats with directory.
+Then we start mapping the file formats with directory. By creating a function and moving them according to the extention list in the dictionary. It will also check if there is any existing directory as defined by us in the program, if any existing folder is there it contines or else it creates a new directory. And then all the files will be categorized according to their extension to the appropriate folder as defined.
 
 `For The Size Sorting of Files`
 
