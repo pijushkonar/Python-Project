@@ -1,6 +1,6 @@
 # Python-Project
 ## **Junk File Organizer**
-### **Project By Pijush**
+### `Project By Pijush`
 
 ### **Aim**
 
