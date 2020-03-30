@@ -6,8 +6,11 @@ import os, shutil
 
 print("Welcome To Junk File Organizer")
 print("Program By - Pijush Konar")
+print("OPTIONS")
+print("Enter 1 For File Type Sorting")
+print("Enter 2 For File Size Sorting")
+typeofsort = input("Enter Sorting Method: ")
 folderpath = input('Enter Your Folder Path To Sort The Files: ')
-typeofsort = input("Enter Sorting Method, Use 'ext' for File Type & 'size' for Size Sorting: ")
 
 
 # To Sort According To Size
@@ -25,7 +28,7 @@ new_path={
     "Organized":('Audio','Video','Images','Docs','Archives','Others','Programming')
 }
 
-if typeofsort=="ext":
+if typeofsort=="1":
     def file_finder(folderpath,file_extensions):
         files=[]
         for file in os.listdir(folderpath):
@@ -51,11 +54,12 @@ if typeofsort=="ext":
             item_path=os.path.join(folderpath,item)
             item_new_path=os.path.join(folder_path,item)
             shutil.move(item_path,item_new_path)
+    print("Done Sorting :)")
 
 
 # To Sort According To Size
 
-if typeofsort=="size":
+if typeofsort=="2":
     def sizecheck(folderpath):
         list_dir=os.walk(folderpath)
         for dir,filename, file in list_dir:
@@ -88,6 +92,7 @@ if typeofsort=="size":
                             shutil.move(folderpath+"/"+f, folderpath+"/GigaBytes_Files/"+f)
                 except FileExistsError:
                     continue
+        print("Done Sorting :)")
     sizecheck(folderpath)
                 
 

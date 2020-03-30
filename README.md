@@ -1,5 +1,6 @@
 # Python-Project
 ## **Junk File Organizer**
+### **Project By Pijush**
 
 ### **Aim**
 
@@ -40,10 +41,13 @@ Here we create a function to get the file size and sorting the files according t
 ## **How This Program Runs**
 
 So this code basically runs as any normal python .py code.
-It asks for user input for the path of the folder where the sorting is to be done.
-Then it asks for the method i.e 
-For File Type Sorting We Use - 'ext' 
-And For File Size Sorting We Use - 'size' 
+It Shows the user Options of sorting.
+
+Then, it asks for the method i.e 
+Enter 1 For File Type Sorting 
+And Enter 2 For File Size Sorting.
+
+Then it asks for user input for the path of the folder where the sorting is to be done.
 
 
 #### `More Features That Are To Be Added`
