@@ -6,7 +6,7 @@ import os, shutil
 
 print("Welcome To Junk File Organizer")
 print("Program By - Pijush Konar")
-print("OPTIONS")
+print("--OPTIONS--")
 print("Enter 1 For File Type Sorting")
 print("Enter 2 For File Size Sorting")
 typeofsort = input("Enter Sorting Method: ")
