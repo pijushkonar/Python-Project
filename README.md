@@ -53,3 +53,8 @@ Then it asks for user input for the path of the folder where the sorting is to b
 #### `More Features That Are To Be Added`
 
 Sorting Accoding To File Usage, Creation Date/Time.
+
+future improvement:
+We can design the ui for the program so a normal user can easily interact with it. We can add more features like deleting the junk files after a certain period of time.
+
+Note: if the use not provide the argument then program will perform the operation on the current directory.
